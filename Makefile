@@ -118,3 +118,6 @@ rsync:
 
 compose-up:
 	sudo docker-compose -f docker-compose-non-dev.yml up
+
+compose-down:
+	sudo docker-compose -f docker-compose-non-dev.yml down
