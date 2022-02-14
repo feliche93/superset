@@ -112,5 +112,3 @@ try:
     )
 except ImportError:
     logger.info("Using default Docker config...")
-
-ENABLE_PROXY_FIX = True
